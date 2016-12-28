@@ -1,0 +1,22 @@
+{
+  "name": "fuzzy-rucksack",
+  "version": "1.0.0",
+  "description": "tools for fuzzy-chainsaw",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krambuhl/fuzzy-rucksack.git"
+  },
+  "author": "Evan Krambuhl <ekrambuhl@connectivedx.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krambuhl/fuzzy-rucksack/issues"
+  },
+  "homepage": "https://github.com/krambuhl/fuzzy-rucksack#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
