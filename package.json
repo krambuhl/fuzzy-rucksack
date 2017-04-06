@@ -1,9 +1,10 @@
 {
   "name": "fuzzy-rucksack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tools for fuzzy-chainsaw",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+  	"build": "babel lib -d dist",
     "test": "tape ./tests/**/*.test.js"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/krambuhl/fuzzy-rucksack#readme",
   "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
     "tape": "^4.6.3"
   }
 }
